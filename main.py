@@ -23,7 +23,7 @@ df = pd.DataFrame({
 fig = px.bar(df, x="Fruit", y="Amount", color="City", barmode="group")
 
 app.layout = html.Div(children=[
-    html.H1(children='Hello Dash'),
+    html.H1(children='Hello Dash Update'),
     html.Div(children='''
         Dash: A web application framework for Python.
     '''),
